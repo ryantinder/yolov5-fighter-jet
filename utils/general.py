@@ -448,6 +448,7 @@ def check_yaml(file, suffix=(".yaml", ".yml")):
 
 
 def check_file(file, suffix=""):
+    print(file)
     # Search/download file (if necessary) and return path
     check_suffix(file, suffix)  # optional
     file = str(file)  # convert to str()
